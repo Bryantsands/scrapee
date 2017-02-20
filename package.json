@@ -1,0 +1,29 @@
+{
+  "name": "scrapee",
+  "version": "1.0.0",
+  "description": "In this assignment, you'll create a web app that lets users leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryantsands/scrapee.git"
+  },
+  "author": "Bryant Sands",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryantsands/scrapee/issues"
+  },
+  "homepage": "https://github.com/Bryantsands/scrapee#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.8.3",
+    "morgan": "^1.8.1",
+    "request": "^2.79.0"
+  }
+}
